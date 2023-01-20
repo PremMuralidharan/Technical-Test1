@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Passwordcheck from './component/passwordcheck';
+import Strongpassword from './component/strongpassword';
 
 function App() {
   return (
     <div className="App">
-      <Passwordcheck></Passwordcheck>
+      <Strongpassword></Strongpassword>
     </div>
   );
 }
